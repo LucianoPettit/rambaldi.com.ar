@@ -1,0 +1,268 @@
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+}
+
+.miembrosTitle {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: w;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.members {
+  display: flex;
+  width: 100%;
+}
+
+.member {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #004274;
+}
+
+.member-role {
+  font-style: italic;
+  font-size: 18px;
+  color: black;
+  border-bottom: none;
+}
+
+.container span {
+  border-bottom: none;
+}
+.container h3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.ferEquipo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.comisionDirectiva {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.vocalesTitulares {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.vocalesSuplentes {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.comisionCuentas {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px dotted black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.imgMembers img {
+  width: 60px;
+  height: 60px;
+}
+.imgContainer {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.imgContainer img {
+  width: 400px;
+}
+
+/* footer */
+
+.footer {
+  padding: 10px;
+}
+.derechos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.derechos p {
+  margin-top: 30px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.derechos i:hover {
+  animation-name: animacion1;
+  animation-duration: 1s;
+}
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+.socialLinks i {
+  color: black;
+  border-radius: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.socialLinks i:hover {
+  color: #e74f1d;
+}
+
+/* footer */
+
+@keyframes animacion1 {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+/* fin del footer  */
+
+.socialLinks i {
+  color: black;
+  border-radius: 100%;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.linea {
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    #ffd400 1%,
+    #ffd400 12.5%,
+    #fdb813 12.5%,
+    #fdb813 25%,
+    #f36f21 25%,
+    #f36f21 37.5%,
+    #ed1c24 37.5%,
+    #ed1c24 50%,
+    #bc1a8d 50%,
+    #bc1a8d 62.5%,
+    #9b2583 62.5%,
+    #9b2583 75%,
+    #2d2b74 75%,
+    #2d2b74 87.5%,
+    #33c2df 87.5%,
+    #33c2df 100%
+  );
+}
+
+.titleHeroText {
+  font-size: 50px;
+}
+
+.imgHeroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgHero {
+  border-radius: 30px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.sectionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.alianzaContainer {
+  width: 80%;
+}
+.titleAlianza {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.subTitleAlianza {
+  color: black;
+  font-size: 30px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+.descriptionAlianza {
+}
+
+.parrafoAlianza {
+  color: black;
+  line-height: 1.8;
+}
+
+.alianza {
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.fixedWhatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 10px;
+  height: auto;
+}
+
+.fixedWhatsapp img {
+  width: 40px;
+  height: auto;
+}
+

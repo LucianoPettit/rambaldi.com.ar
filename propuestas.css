@@ -1,0 +1,166 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&display=swap");
+
+/* fin de imports */
+/* font-family: 'EB Garamond', serif; */
+/* reset de pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+
+}
+/* fin de reset */
+
+/* root (paleta de colores)*/
+:root {
+  --blanco: white;
+  --negro: black;
+  --primario: #e74f1d;
+  --secundario: #429bd2;
+  --terciario: #2b925b;
+}
+
+
+.botonRegresar{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.botonRegresar:hover{
+   background-color: #0066cc;
+  border-color: #0062cc;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.headerContainer a{ 
+  text-decoration: none;
+}
+
+.headerContainer h1{
+  font-size: 50px;
+}
+
+.mainContainer{
+  width: 100%;
+  max-width: 1920px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.sectionContainer{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.divContainer{
+  width: 100%;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.indice{
+
+  padding: 40px;
+}
+
+.titleMain{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+  
+}
+
+.divContainer p{
+  font-size: 18px;
+}
+
+.containerVideo{
+  margin-top: 20px ;
+  margin-bottom: 40px ;
+}
+
+.indiceVideosContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  font-size: 18px;
+}
+.ImgContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+.imgPropuesta{
+  width: 350px;
+  padding: 10px;
+}
+
+.imgPropuestaSeguridad{
+  width: 350px;
+  padding: 10px;
+}
+
+.imgPropuestaInfra{
+  width: auto;
+  padding: 10px;
+}
+span{
+  color:black;
+}
+
+
+@media (max-width: 650px) {
+
+.indiceVideosContainer{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headerContainer h1{
+  font-size: 35px;
+}
+.titleMain{
+  font-size: 25px;
+}
+}
+
+
+@media (max-width: 450px) {
+
+.indiceVideosContainer{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+}

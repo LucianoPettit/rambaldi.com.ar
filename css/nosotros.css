@@ -1,0 +1,170 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,700&display=swap');
+/* fin de imports */
+/* font-family: 'EB Garamond', serif; */
+/* reset de pagina */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+/* fin de reset */
+
+/* root (paleta de colores)*/
+:root {
+  --blanco: white;
+  --negro: black;
+  --primario: #e74f1d;
+  --secundario: #429bd2;
+  --terciario: #2b925b;
+}
+/* fin del root (paleta de colores)*/
+
+/* body/html */
+body{
+  background-image:url("../img/fondos/Fondo18.png");}
+
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+
+}
+::selection {
+  background-color:white;
+  color: black;
+}
+/* heder nav*/
+
+
+  .links{
+    display: flex;
+    justify-content: end;
+  }
+.leftContent {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: white;
+  margin-left: 30px;
+}
+.navbar-brand:hover {
+  color: #e74f1d;
+} 
+#navbarText {
+  font-size: 18px;
+  color: var(--primario);
+  margin-right: 30px;
+}
+.nav-item:hover {
+  border-bottom: 1px solid black;
+  border-bottom: none;
+  
+}
+.nav-link:hover {
+  color: #e74f1d;
+}
+.nav-link {
+  color: black;
+  font-size: 15px;
+  z-index: 10;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 4px;
+  font-weight: bold;
+  background-color: white;
+}
+.navbar{
+  background-color: transparent !important;
+}
+
+.nav-item    {
+  font-size: 35px;
+}
+.custom-class {
+  background-color: #ffffff; 
+  
+}
+
+
+.imgfixed {
+  text-align: center;
+  background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812) ),
+    url("../img/test1.jpg");
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: center;
+  background-attachment: fixed;
+}
+/* fin de heder nav*/
+/* hero */
+.heroContainer {
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.imgHeroContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  }
+  .imgHero{
+  border-radius: 30px;
+  margin-bottom: 10px;
+  width: 200px;
+  }
+  
+
+
+.heroTextContainer{
+width: 70%;
+
+}
+.heroText {
+  display: block;
+margin-top: 200px;
+}
+
+.subtitleHeroText {
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.titleHeroText {
+  font-size:47px;
+   color: white;
+   font-weight: bold;
+}
+.heroButton {
+  color:#2b925b;
+}
+
+.fixedWhatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  width: 10px;
+  height: auto;
+}
+
+.fixedWhatsapp img {
+  width: 40px;
+  height: auto;
+}
+
