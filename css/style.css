@@ -153,6 +153,28 @@ nav{
   background-attachment: fixed;
 }
 
+
+
+
+.botonRegresar{
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.botonRegresar:hover{
+   background-color: #0066cc;
+  border-color: #0062cc;
+  color: black;
+}
 .linea {
   height: 10px;
   background-image: linear-gradient(to right,
@@ -210,18 +232,33 @@ nav{
   font-weight: bold;
 }
 
-.botonHero a{
-  color: black;
-  text-decoration:none;
+
+
+
+
+
+
+.botonHero{
+  font-size: 16px;
   font-weight: bold;
+  color: white;
+  background-color: #0066cc;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;    
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.botonHero {
-  padding: 8px;
-  color: black;
-  border: none;
-  border-radius: 10px;
+.botonHero:hover{
+  background-color: #6886a6b2;
+
+ border-color: #0063cc84;
+ color: black;
 }
+
 
 .imgHeroContainer{
 display: flex;
