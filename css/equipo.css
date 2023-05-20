@@ -90,6 +90,7 @@
   display: flex;
   justify-content: center;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .comisionCuentas {
@@ -98,6 +99,7 @@
   border-bottom: 3px dotted black;
   margin-bottom: 20px;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .imgMembers img {
@@ -199,7 +201,7 @@
 
 .titleHeroText {
   font-weight: bold;
-  margin-top: 190px;
+  margin-top: 380px !important;
   font-size: 50px;
 }
 
@@ -270,12 +272,12 @@
 
 
 
-.imgfixed {
+.imgfixed { 
   text-align: center;
   background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
     url("../img/2.png");
   width: auto;
-  height: 80vh;
+  height: 80vh !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-image:center ;
