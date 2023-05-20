@@ -106,7 +106,19 @@ nav{
 .navbar-nav {
   z-index: 10;
 
-  
+
+}
+
+
+.navContainer{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.pNavbar{
+  font-weight: bold;
+  font-size: 17px;
 }
 .nav-item {
   font-size: 35px;
@@ -144,13 +156,14 @@ nav{
 .imgfixed {
   text-align: center;
   background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
-    url("../img/test1.jpg");
+    url("../img/2.png");
   width: auto;
-  height: 80vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: center;
+  background-image:center ;
   background-attachment: fixed;
+  background-position: 70%;
 }
 
 
@@ -212,14 +225,31 @@ nav{
   text-align: center;
 }
 
+
+
+
+
+
 .heroTextContainer {
   width: 70%;
-  margin-top: 150px;
+  margin-top: 110px;
 }
 .heroText {
   display: block;
-  margin-top: 100px;
+  margin-top: 0px;
+
   
+}
+
+.heroTextDiv{
+  margin-top: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heroImgRs{
+
 }
 
 .subtitleHeroText {
@@ -246,7 +276,7 @@ nav{
   border-radius: 4px;
   padding: 10px 20px;
   cursor: pointer;    
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   text-decoration: none;
   border-radius: 10px;
   margin-top: 10px;
@@ -273,6 +303,11 @@ margin-bottom: 10px;
 width: 200px;
 }
 
+.imgHero2{
+  border-radius: 30px;
+margin-bottom: 10px;
+width: 150px;
+}
 
 .fondoJuntos{
  width: 160px;
@@ -705,19 +740,19 @@ i {
 @media (max-width: 2800px) {
   .heroTextContainer {
     width: 70%;
-    margin-top: 350px;
+    margin-top: 110px;
   }
 }
 
 @media (max-width: 1750px){
   .imgfixed {
-    background-position: 70%;
+    background-position: 50%;
   }
 }
 @media (max-width: 1400px) {
   .imgfixed {
-    background-position: 70%;
-    height: 80vh;
+    background-position: 50%;
+    height: 100vh;
   }
   .heroTextContainer {
     width: 70%;
@@ -725,6 +760,8 @@ i {
   }
 
 }
+
+
 
 @media (max-width: 900px) {
   .formacionFuncion {
@@ -735,8 +772,8 @@ i {
     max-width: 100%;
   }
   .imgfixed {
-    height: 80vh;
-    background-position: 85%;
+    height: 100vh;
+    background-position: 50%;
   }
 
   .counterSliderContainer {
@@ -767,6 +804,15 @@ i {
   .proyectosTitle{
     font-size: 10px;
   }
+  .imgHero{
+    width: 150px;
+    margin-left: 40px;
+  }
+  .imgHero2{
+    width: 150px;
+    margin-left: 40px;
+  }
+
 }
 
 
@@ -863,12 +909,20 @@ font-size: 20px;
     font-size: 22px;
   }
   .imgfixed {
-    height: 80vh;
-    background-position: 70%;
+    height: 100vh;
+    background-position: 50%;
   }
   .heroTextContainer {
     width: 70%;
     margin-top: 50px;
+  }
+  .imgHero{
+    width:120px;
+    margin-left: 0px;
+  }
+  .imgHero2{
+    width:120px;
+    margin-left: 0px;
   }
   
 }
@@ -904,7 +958,11 @@ font-size: 20px;
 
 
 @media (max-width: 500px){
- 
+
+ .imgHero2{
+  display: none;
+ }
+
   .nav-link{
     font-size: 10px;
   }
@@ -912,7 +970,19 @@ font-size: 20px;
     width: 20px;
 
   }
+  .imgfixed {
+    height: 100vh;
+    background-position: 52%;
+  }
+
+ 
 }
 
 
 
+@media (min-width: 500px){
+
+  .heroImgRs{
+    display: none;
+  }
+}
