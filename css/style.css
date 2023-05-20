@@ -169,6 +169,7 @@ nav{
 
 
 
+
 .botonRegresar{
   font-size: 16px;
   font-weight: bold;
@@ -909,7 +910,7 @@ font-size: 20px;
     font-size: 22px;
   }
   .imgfixed {
-    height: 100vh;
+    height: 70vh;
     background-position: 50%;
   }
   .heroTextContainer {
