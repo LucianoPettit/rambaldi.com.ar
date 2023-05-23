@@ -7,7 +7,7 @@
 .miembrosTitle {
   padding-top: 40px;
   display: flex;
-  flex-direction: w;
+  flex-direction: ;
   font-weight: 500;
   text-align: center;
   font-weight: bold;
@@ -112,6 +112,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .imgContainer img {
   width: 400px;
@@ -206,6 +208,7 @@
 .titleHeroText {
   font-weight: bold;
   font-size: 50px;
+  color: black;
 }
 
 .imgHeroContainer {
@@ -230,6 +233,7 @@
 
 .alianzaContainer {
   width: 80%;
+  margin-top: 50px;
 }
 .titleAlianza {
   color: black;
@@ -307,7 +311,7 @@
 @media (max-width: 2800px) {
   .heroTextContainer {
     width: 70%;
-    margin-top: 110px;
+    
   }
 }
 
@@ -323,7 +327,7 @@
   }
   .heroTextContainer {
     width: 70%;
-    margin-top: 110px;
+    margin-top: 70px;
   }
 
 }

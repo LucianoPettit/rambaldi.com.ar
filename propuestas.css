@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
+ 
 
 
 }
@@ -121,8 +122,8 @@ h3{
   font-size: 18px;
 }
 .ImgContainer{
-  display: flex;
-  flex-wrap: wrap;
+  display: flex !  ;
+  flex-wrap: wrap !important;
 }
 .imgPropuesta{
   width: 350px;
@@ -147,6 +148,10 @@ span{
   width: 600px;
 }
 
+.img-responsive {
+  padding: 20px;
+}
+
 @media (max-width: 650px) {
 
 .indiceVideosContainer{
@@ -161,6 +166,9 @@ span{
   font-size: 25px;
 }
 .imgPropuestaParque{
+  width: 350px;
+}
+.imgagua{
   width: 350px;
 }
 }

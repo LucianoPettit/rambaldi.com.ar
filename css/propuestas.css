@@ -35,10 +35,7 @@ body{
   max-width: 1920px;
 
 }
-::selection {
-  background-color:white;
-  color: black;
-}
+
 /* heder nav*/
 
 
@@ -147,7 +144,8 @@ body{
 }
 .heroText {
   display: block;
-margin-top: 200px;
+margin-top: 280px;
+
 }
 
 .subtitleHeroText {
@@ -156,8 +154,9 @@ margin-top: 200px;
 }
 .titleHeroText {
   font-size:37px;
-   color: white;
+   color: white !important;
    font-weight: bold;
+  
 }
 
 

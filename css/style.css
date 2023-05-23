@@ -105,6 +105,7 @@ nav{
 }
 .navbar-nav {
   z-index: 10;
+  
 
 
 }
@@ -123,19 +124,22 @@ nav{
 .nav-item {
   font-size: 35px;
   z-index: 10;
-  
+  padding: 5px;
  
 }
 .custom-class {
   background-color: #ffffff;
 }
 
+.navbar-toggler {
+  margin-right: 10px;
+} 
 
 .navbar-collapse {
   flex-direction: row !important;
 }
 
-.navbar-nav {
+.navbar-nav  {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -143,7 +147,7 @@ nav{
   flex-direction: row !important;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link  {
   padding-right: 0.5rem;
   flex-direction: row !important;
   padding-left: 0.5rem;
@@ -152,6 +156,7 @@ nav{
 
 .test{
   display: block;
+
 }
 .imgfixed {
   text-align: center;
@@ -233,20 +238,23 @@ nav{
 
 .heroTextContainer {
   width: 70%;
-  margin-top: 110px;
+  margin-top: 140px;
 }
 .heroText {
-  display: block;
-  margin-top: 0px;
-
+  display: flex;
+  margin-top:30px;
+justify-content: center;
+align-items: center;
+flex-direction: column;
   
 }
 
 .heroTextDiv{
-  margin-top: 300px;
+  margin-top: 200px;
   justify-content: center;
   align-items: center;
   text-align: center;
+    margin-top: 400px;
 }
 
 .heroImgRs{
@@ -255,12 +263,13 @@ nav{
 
 .subtitleHeroText {
   font-size: 18px;
-  color: white;
+  color: black;
 }
 .titleHeroText {
   font-size: 37px;
-  color: white;
+  color: black;
   font-weight: bold;
+  
 }
 
 
@@ -300,12 +309,14 @@ flex-direction: column;
 }
 .imgHero{
 border-radius: 30px;
-margin-bottom: 10px;
+margin-bottom: 0px;
+margin-top: 220px;
+
 width: 200px;
 }
 
 .imgHero2{
-  border-radius: 30px;
+  border-radius: 10px;
 margin-bottom: 10px;
 width: 150px;
 }
@@ -328,7 +339,8 @@ height: 200px;
     margin-top: 30px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center !important;
+    flex-wrap: wrap !important;
   }
 
 /* biografia */
@@ -506,6 +518,12 @@ i {
 .divSlider{
   
 }
+
+.cardCss{
+  background-image:url("../img/fondos/Fondo17.png");
+
+}
+
 
 
 .divSlider p{
@@ -743,7 +761,6 @@ i {
 @media (max-width: 2800px) {
   .heroTextContainer {
     width: 70%;
-    margin-top: 110px;
   }
 }
 
@@ -755,11 +772,11 @@ i {
 @media (max-width: 1400px) {
   .imgfixed {
     background-position: 50%;
-    height: 100vh;
+    height: 90vh !important;
   }
   .heroTextContainer {
     width: 70%;
-    margin-top: 110px;
+  
   }
 
 }
@@ -775,7 +792,7 @@ i {
     max-width: 100%;
   }
   .imgfixed {
-    height: 100vh;
+    height: 90vh !important;
     background-position: 50%;
   }
 
@@ -866,7 +883,7 @@ font-size: 20px;
 }
   
 .imgContainer img{
-  width: 300px;
+  width: auto;
     }
 
   .ferimgcontacto{
@@ -912,12 +929,12 @@ font-size: 20px;
     font-size: 22px;
   }
   .imgfixed {
-    height: 70vh;
+    height: 90vh !important;
     background-position: 50%;
   }
   .heroTextContainer {
     width: 70%;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .imgHero{
     width:120px;
@@ -928,6 +945,19 @@ font-size: 20px;
     margin-left: 0px;
   }
   
+
+  .heroTextDiv{
+   
+      margin-top: 200px;
+  }
+
+  .nav-item {
+    font-size: 35px;
+    z-index: 10;
+    padding: 0px;
+   
+  }
+
 }
 
 .videoPropuestasContainer {
@@ -974,7 +1004,7 @@ font-size: 20px;
 
   }
   .imgfixed {
-    height: 100vh;
+    height: 90vh !important;
     background-position: 52%;
   }
 
@@ -988,4 +1018,5 @@ font-size: 20px;
   .heroImgRs{
     display: none;
   }
+ 
 }

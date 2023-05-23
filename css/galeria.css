@@ -184,7 +184,7 @@ margin-top: 500px !important;
   background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
     url("../img/2.png");
   width: auto;
-  height: 80vh;
+  height: 80vh !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: center;
