@@ -116,7 +116,7 @@
   margin-bottom: 30px;
 }
 .imgContainer img {
-  width: 400px;
+  width: 350px;
 }
 
 /* footer */
@@ -201,9 +201,7 @@
   );
 }
 
-.heroTextDiv{
-  margin-top: 400px !important;
-}
+
 
 .titleHeroText {
   font-weight: bold;
@@ -249,8 +247,6 @@
   font-weight: bold;
 }
 
-.descriptionAlianza {
-}
 
 .parrafoAlianza {
   color: black;
@@ -261,8 +257,6 @@
   color: black;
   font-weight: bold;
 }
-
-
 
 .fixedWhatsapp {
   position: fixed;
@@ -279,22 +273,6 @@
 
 
 
-.imgfixed { 
-  text-align: center;
-  background-image: linear-gradient(390deg, #ffffff2a, rgba(0, 0, 0, 0.812)),
-    url("../img/2.png");
-  width: auto;
-  height: 80vh !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image:center ;
-  background-attachment: fixed;
-  background-position: 70%;
-}
-
-
-
-
 @keyframes animacion1 {
   from {
     transform: scale(1);
@@ -307,32 +285,18 @@
 
 /* medias */
 
-
 @media (max-width: 2800px) {
-  .heroTextContainer {
-    width: 70%;
-    
-  }
+
 }
 
-@media (max-width: 1750px){
-  .imgfixed {
-    background-position: 50%;
-  }
+@media (max-width: 1750px) {
+
 }
+
 @media (max-width: 1400px) {
-  .imgfixed {
-    background-position: 50%;
-    height: 100vh;
-  }
-  .heroTextContainer {
-    width: 70%;
-    margin-top: 70px;
-  }
+
 
 }
-
-
 
 @media (max-width: 900px) {
   .formacionFuncion {
@@ -342,10 +306,7 @@
     align-items: center;
     max-width: 100%;
   }
-  .imgfixed {
-    height: 100vh;
-    background-position: 50%;
-  }
+
 
   .counterSliderContainer {
     flex-direction: column;
@@ -356,48 +317,45 @@
   .sliderTitle h2 {
     font-size: 28px;
   }
-  .ferimgcontacto{
+  .ferimgcontacto {
     width: 500px;
   }
-  .contactoContainer h2{
+  .contactoContainer h2 {
     font-size: 18px;
   }
-  .contactoContainer p{
+  .contactoContainer p {
     font-size: 10px;
   }
-  .tareaLegis{
+  .tareaLegis {
     color: black;
     margin-top: 10px;
     font-weight: bold;
     width: 80%;
     font-size: 20px;
   }
-  .proyectosTitle{
+  .proyectosTitle {
     font-size: 10px;
   }
-  .imgHero{
+  .imgHero {
     width: 150px;
     margin-left: 40px;
   }
-  .imgHero2{
+  .imgHero2 {
     width: 150px;
     margin-left: 40px;
   }
-
 }
-
 
 @media (max-width: 600px) {
+  .counter {
+    font-size: 40px;
+  }
 
-.counter{
-  font-size: 40px;
-}
-  
-.sliderTitle .proyectosTitle {
-font-size: 20px;
-}
+  .sliderTitle .proyectosTitle {
+    font-size: 20px;
+  }
 
-  .proyectosTitle{
+  .proyectosTitle {
     width: 90;
     font-size: 10px;
   }
@@ -405,43 +363,42 @@ font-size: 20px;
   .sliderTitle p {
     font-size: 14px;
   }
-    .divSlider p{
-  font-size: 18px;
+  .divSlider p {
+    font-size: 18px;
   }
 
-  .containerDivSlider{
+  .containerDivSlider {
     display: flex;
     flex-direction: column;
   }
-  .tareaLegis{
+  .tareaLegis {
     color: black;
     margin-top: 10px;
     font-weight: bold;
     width: 90%;
     font-size: 14px;
   }
-  .proyectosTitle{
+  .proyectosTitle {
     font-size: 10px;
   }
 
+  .titleAlianza {
+    font-size: 30px;
+  }
 
-.titleAlianza{
-  font-size: 30px;
-}
+  .subTitleAlianza {
+    font-size: 20px;
+  }
 
-.subTitleAlianza{
-  font-size: 20px;
-}
-  
-.imgContainer img{
-  width: 300px;
-    }
+  .imgContainer img {
+    width: 300px !important;
+  }
 
-  .ferimgcontacto{
+  .ferimgcontacto {
     width: 350px;
   }
   .navbar-brand {
-    font-size:20px;
+    font-size: 20px;
   }
   .titleHeroText {
     font-size: 25px;
@@ -449,10 +406,7 @@ font-size: 20px;
   .subtitleHeroText {
     font-size: 16px;
   }
-  .heroTextContainer {
-    width: 90%;
-  }
-  .biografia h2 {
+biografia h2 {
     font-size: 22px;
   }
   .biografia h4 {
@@ -479,23 +433,16 @@ font-size: 20px;
   .sliderTitle h2 {
     font-size: 22px;
   }
-  .imgfixed {
-    height: 100vh;
-    background-position: 50%;
-  }
-  .heroTextContainer {
-    width: 70%;
-    margin-top: 50px;
-  }
-  .imgHero{
-    width:120px;
+
+
+  .imgHero {
+    width: 120px;
     margin-left: 0px;
   }
-  .imgHero2{
-    width:120px;
+  .imgHero2 {
+    width: 120px;
     margin-left: 0px;
   }
-  
 }
 
 .videoPropuestasContainer {
@@ -504,13 +451,12 @@ font-size: 20px;
   align-items: center;
 }
 
-.videoPropuestasContainer{
+.videoPropuestasContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
 
 .fixedWhatsapp {
   position: fixed;
@@ -525,35 +471,22 @@ font-size: 20px;
   height: auto;
 }
 
+@media (max-width: 500px) {
+  .imgHero2 {
+    display: none;
+  }
 
-
-
-@media (max-width: 500px){
-
- .imgHero2{
-  display: none;
- }
-
-  .nav-link{
+  .nav-link {
     font-size: 10px;
   }
-  .fixedWhatsapp img{
+  .fixedWhatsapp img {
     width: 20px;
-
-  }
-  .imgfixed {
-    height: 100vh;
-    background-position: 52%;
   }
 
- 
 }
 
-
-
-@media (min-width: 500px){
-
-  .heroImgRs{
+@media (min-width: 500px) {
+  .heroImgRs {
     display: none;
   }
 }

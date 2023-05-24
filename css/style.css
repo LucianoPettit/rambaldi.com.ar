@@ -9,7 +9,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-
+  border: 1px solid blue;
 }
 /* fin de reset */
 
@@ -26,25 +26,24 @@
 
 /* body/html */
 
-
 /* HOVER COLOR */
 
 a svg:hover #facebook,
-a svg:hover #instagram { 
+a svg:hover #instagram {
   fill: #111;
 }
 
 /* GENERAL STYLES */
-body{
-  background-image:url("../img/fondos/Fondo18.png");}
+body {
+  background-image: url("../img/fondos/Fondo18.png");
+}
 .container {
   width: 100%;
   max-width: 1920px;
 }
 
 /* heder nav*/
-nav{
-  
+nav {
 }
 .links {
   display: flex;
@@ -62,7 +61,6 @@ nav{
   margin-left: 30px;
   font-weight: bold;
   z-index: 10;
- 
 }
 .navbar {
   position: absolute;
@@ -71,17 +69,14 @@ nav{
 .navbar-brand:hover {
   color: #e74f1d;
   z-index: 10;
-
 }
 #navbarText {
   font-size: 18px;
   color: var(--primario);
   margin-right: 30px;
-
 }
 .nav-item:hover {
   border-bottom: none;
-
 }
 .nav-link:hover {
   color: #e74f1d;
@@ -101,23 +96,18 @@ nav{
 .navbar {
   background-color: transparent !important;
   z-index: 10;
-  
 }
 .navbar-nav {
   z-index: 10;
-  
-
-
 }
 
-
-.navContainer{
+.navContainer {
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-.pNavbar{
+.pNavbar {
   font-weight: bold;
   font-size: 17px;
 }
@@ -125,7 +115,6 @@ nav{
   font-size: 35px;
   z-index: 10;
   padding: 5px;
- 
 }
 .custom-class {
   background-color: #ffffff;
@@ -133,13 +122,13 @@ nav{
 
 .navbar-toggler {
   margin-right: 10px;
-} 
+}
 
 .navbar-collapse {
   flex-direction: row !important;
 }
 
-.navbar-nav  {
+.navbar-nav {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -147,16 +136,14 @@ nav{
   flex-direction: row !important;
 }
 
-.navbar-nav .nav-link  {
+.navbar-nav .nav-link {
   padding-right: 0.5rem;
   flex-direction: row !important;
   padding-left: 0.5rem;
 }
 
-
-.test{
+.test {
   display: block;
-
 }
 .imgfixed {
   text-align: center;
@@ -166,16 +153,12 @@ nav{
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image:center ;
+  background-image: center;
   background-attachment: fixed;
   background-position: 70%;
 }
 
-
-
-
-
-.botonRegresar{
+.botonRegresar {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
@@ -189,30 +172,31 @@ nav{
   text-decoration: none;
 }
 
-.botonRegresar:hover{
-   background-color: #0066cc;
+.botonRegresar:hover {
+  background-color: #0066cc;
   border-color: #0062cc;
   color: black;
 }
 .linea {
   height: 10px;
-  background-image: linear-gradient(to right,
-    #FFD400 1%,
-    #FFD400 12.5%,
-    #FDB813 12.5%,
-    #FDB813 25%,
-    #F36F21 25%,
-    #F36F21 37.5%,
-    #ED1C24 37.5%,
-    #ED1C24 50%,
-    #BC1A8D 50%,
-    #BC1A8D 62.5%,
-    #9B2583 62.5%,
-    #9B2583 75%,
-    #2D2B74 75%,
-    #2D2B74 87.5%,
-    #33C2DF 87.5%,
-    #33C2DF 100%
+  background-image: linear-gradient(
+    to right,
+    #ffd400 1%,
+    #ffd400 12.5%,
+    #fdb813 12.5%,
+    #fdb813 25%,
+    #f36f21 25%,
+    #f36f21 37.5%,
+    #ed1c24 37.5%,
+    #ed1c24 50%,
+    #bc1a8d 50%,
+    #bc1a8d 62.5%,
+    #9b2583 62.5%,
+    #9b2583 75%,
+    #2d2b74 75%,
+    #2d2b74 87.5%,
+    #33c2df 87.5%,
+    #33c2df 100%
   );
 }
 /* colores . #F0F58E, #FCD106, #F9B20C, #F04444, #F14DAC, #EF33A1, #2C3580, #366183, #91D3ED
@@ -231,33 +215,23 @@ nav{
   text-align: center;
 }
 
-
-
-
-
-
 .heroTextContainer {
+  display: flex;
   width: 70%;
-  margin-top: 140px;
+  flex-direction: column;
 }
 .heroText {
   display: flex;
-  margin-top:30px;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-  
+  margin-top: 500px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.heroTextDiv{
-  margin-top: 200px;
+.heroTextDiv {
   justify-content: center;
   align-items: center;
   text-align: center;
-    margin-top: 400px;
-}
-
-.heroImgRs{
 
 }
 
@@ -269,79 +243,69 @@ flex-direction: column;
   font-size: 37px;
   color: black;
   font-weight: bold;
-  
 }
 
-
-
-
-
-
-
-.botonHero{
+.botonHero {
   font-size: 16px;
   font-weight: bold;
   color: white;
   background-color: #0066cc;
   border-radius: 4px;
   padding: 10px 20px;
-  cursor: pointer;    
+  cursor: pointer;
   margin-bottom: 0px;
   text-decoration: none;
   border-radius: 10px;
   margin-top: 10px;
 }
 
-.botonHero:hover{
+.botonHero:hover {
   background-color: #6886a6b2;
 
- border-color: #0063cc84;
- color: black;
+  border-color: #0063cc84;
+  color: black;
 }
 
-
-.imgHeroContainer{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
+.imgHeroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.imgHero{
-border-radius: 30px;
-margin-bottom: 0px;
-margin-top: 220px;
+.imgHero {
+  border-radius: 30px;
+  margin-bottom: 0px;
+  margin-top: 220px;
 
-width: 200px;
+  width: 200px;
 }
 
-.imgHero2{
+.imgHero2 {
   border-radius: 10px;
-margin-bottom: 10px;
-width: 150px;
+  margin-bottom: 10px;
+  width: 150px;
 }
 
-.fondoJuntos{
- width: 160px;
- height:160px;
+.fondoJuntos {
+  width: 160px;
+  height: 160px;
 }
 
-
-.containerFondoJuntos{
-background-color: white;
-width: 200px;
-height: 200px;
+.containerFondoJuntos {
+  background-color: white;
+  width: 200px;
+  height: 200px;
 }
 /* fin del hero */
 
- .imgContainer{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
-    text-align: center !important;
-    flex-wrap: wrap !important;
-  }
+.imgContainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  flex-wrap: wrap !important;
+}
 
 /* biografia */
 .biografia {
@@ -480,10 +444,10 @@ i {
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100%;
 }
-.sliderTitle  {
+.sliderTitle {
   font-weight: bold;
   color: black;
   max-width: 80%;
@@ -491,7 +455,7 @@ i {
   text-align: center;
   margin-top: 10px;
 }
-.sliderTitle h2  {
+.sliderTitle h2 {
   color: black;
   font-weight: bold;
   font-size: 30px;
@@ -499,41 +463,36 @@ i {
 }
 .sliderTitle p {
   color: black;
-  
+
   font-size: 20px;
   margin-bottom: 20px;
 }
- 
 
-.tareaLegis{
+.tareaLegis {
   color: black;
   margin-top: 10px;
   font-weight: bold;
   width: 80%;
 }
-.containerDivSlider{
+.containerDivSlider {
   display: flex;
   gap: 60px;
 }
-.divSlider{
-  
+.divSlider {
 }
 
-.cardCss{
-  background-image:url("../img/fondos/Fondo17.png");
-
+.cardCss {
+  background-image: url("../img/fondos/Fondo17.png");
 }
 
-
-
-.divSlider p{
+.divSlider p {
   margin-top: 40px;
   font-size: 25px;
   color: black;
   font-weight: bold;
 }
 
-.divSlider img{
+.divSlider img {
   width: 20px;
 }
 .counterSliderContainer {
@@ -556,7 +515,7 @@ i {
   font-size: 60px;
   margin-top: 10px;
   color: black;
-  font-weight: bold
+  font-weight: bold;
 }
 
 @media (max-width: 580px) {
@@ -648,37 +607,30 @@ i {
   cursor: pointer;
 }
 
-
-
-
 /* contacto */
-.contacto{
+.contacto {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
   margin-top: 50px;
-
 }
-.contacto div img  {
-
+.contacto div img {
   margin-bottom: 30px;
 }
-.contacto h2  {
+.contacto h2 {
   color: black;
   font-size: 35px;
   font-weight: bold;
-
 }
-.contacto p  {
+.contacto p {
   color: black;
   font-size: 20px;
   font-weight: bold;
 }
 
-
-.botonEnviarMsj  {
+.botonEnviarMsj {
   padding: 10px;
   color: black;
   box-shadow: 2px 2px 2px black;
@@ -686,19 +638,12 @@ i {
   border: none;
   border-radius: 10px;
   border-bottom: none;
-
-
 }
- .botonEnviarMsj  a {
+.botonEnviarMsj a {
   color: black;
-
-
-
 }
 
-
-
-.ferimgcontacto{
+.ferimgcontacto {
   width: 800px;
   border-radius: 30px;
 }
@@ -757,31 +702,27 @@ i {
 
 /* medias */
 
-
 @media (max-width: 2800px) {
   .heroTextContainer {
     width: 70%;
   }
 }
 
-@media (max-width: 1750px){
+@media (max-width: 1750px) {
   .imgfixed {
     background-position: 50%;
   }
+  
 }
 @media (max-width: 1400px) {
-  .imgfixed {
-    background-position: 50%;
-    height: 90vh !important;
+ 
+  .heroText{
+  margin-top: 300px;
   }
   .heroTextContainer {
     width: 70%;
-  
   }
-
 }
-
-
 
 @media (max-width: 900px) {
   .formacionFuncion {
@@ -792,7 +733,6 @@ i {
     max-width: 100%;
   }
   .imgfixed {
-    height: 90vh !important;
     background-position: 50%;
   }
 
@@ -805,48 +745,45 @@ i {
   .sliderTitle h2 {
     font-size: 28px;
   }
-  .ferimgcontacto{
+  .ferimgcontacto {
     width: 500px;
   }
-  .contactoContainer h2{
+  .contactoContainer h2 {
     font-size: 18px;
   }
-  .contactoContainer p{
+  .contactoContainer p {
     font-size: 10px;
   }
-  .tareaLegis{
+  .tareaLegis {
     color: black;
     margin-top: 10px;
     font-weight: bold;
     width: 80%;
     font-size: 20px;
   }
-  .proyectosTitle{
+  .proyectosTitle {
     font-size: 10px;
   }
-  .imgHero{
+  .imgHero {
     width: 150px;
     margin-left: 40px;
   }
-  .imgHero2{
+  .imgHero2 {
     width: 150px;
     margin-left: 40px;
   }
-
 }
-
 
 @media (max-width: 600px) {
+  .counter {
+    font-size: 40px;
+  }
 
-.counter{
-  font-size: 40px;
-}
-  
-.sliderTitle .proyectosTitle {
-font-size: 20px;
-}
+  .sliderTitle .proyectosTitle {
+    font-size: 20px;
+  }
 
-  .proyectosTitle{
+  .proyectosTitle {
     width: 90;
     font-size: 10px;
   }
@@ -854,43 +791,42 @@ font-size: 20px;
   .sliderTitle p {
     font-size: 14px;
   }
-    .divSlider p{
-  font-size: 18px;
+  .divSlider p {
+    font-size: 18px;
   }
 
-  .containerDivSlider{
+  .containerDivSlider {
     display: flex;
     flex-direction: column;
   }
-  .tareaLegis{
+  .tareaLegis {
     color: black;
     margin-top: 10px;
     font-weight: bold;
     width: 90%;
     font-size: 14px;
   }
-  .proyectosTitle{
+  .proyectosTitle {
     font-size: 10px;
   }
 
+  .titleAlianza {
+    font-size: 30px;
+  }
 
-.titleAlianza{
-  font-size: 30px;
-}
+  .subTitleAlianza {
+    font-size: 20px;
+  }
 
-.subTitleAlianza{
-  font-size: 20px;
-}
-  
-.imgContainer img{
-  width: auto;
-    }
+  .imgContainer img {
+    width: 300px !important;
+  }
 
-  .ferimgcontacto{
+  .ferimgcontacto {
     width: 350px;
   }
   .navbar-brand {
-    font-size:20px;
+    font-size: 20px;
   }
   .titleHeroText {
     font-size: 25px;
@@ -899,7 +835,7 @@ font-size: 20px;
     font-size: 16px;
   }
   .heroTextContainer {
-    width: 90%;
+    width: 100%;
   }
   .biografia h2 {
     font-size: 22px;
@@ -929,35 +865,32 @@ font-size: 20px;
     font-size: 22px;
   }
   .imgfixed {
-    height: 90vh !important;
+  
     background-position: 50%;
   }
   .heroTextContainer {
     width: 70%;
-    margin-top: 0px;
+    
   }
-  .imgHero{
-    width:120px;
+  .imgHero {
+    width: 120px;
     margin-left: 0px;
   }
-  .imgHero2{
-    width:120px;
+  .imgHero2 {
+    width: 120px;
     margin-left: 0px;
   }
-  
 
-  .heroTextDiv{
-   
-      margin-top: 200px;
-  }
 
   .nav-item {
     font-size: 35px;
     z-index: 10;
     padding: 0px;
-   
   }
 
+   .heroText{
+  margin-top: 150px;
+  }
 }
 
 .videoPropuestasContainer {
@@ -966,13 +899,12 @@ font-size: 20px;
   align-items: center;
 }
 
-.videoPropuestasContainer{
+.videoPropuestasContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-
 
 .fixedWhatsapp {
   position: fixed;
@@ -987,36 +919,33 @@ font-size: 20px;
   height: auto;
 }
 
-
-
-
-@media (max-width: 500px){
-
- .imgHero2{
-  display: none;
- }
-
-  .nav-link{
-    font-size: 10px;
-  }
-  .fixedWhatsapp img{
-    width: 20px;
-
-  }
-  .imgfixed {
-    height: 90vh !important;
-    background-position: 52%;
-  }
-
- 
-}
-
-
-
-@media (min-width: 500px){
-
-  .heroImgRs{
+@media (max-width: 500px) {
+  .imgHero2 {
     display: none;
   }
- 
+
+  .nav-link {
+    font-size: 10px;
+  }
+  .fixedWhatsapp img {
+    width: 20px;
+  }
+  .imgfixed {
+    background-position: 52%;
+  }
+   .heroText{
+  margin-top: 320px;
+  }
+}
+
+@media (min-width: 500px) {
+  .heroImgRs {
+    display: none;
+  }
+}
+
+@media (max-width: 400px){
+  .heroText{
+    margin-top: 150px;
+    }
 }
